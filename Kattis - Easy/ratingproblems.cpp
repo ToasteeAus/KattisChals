@@ -7,6 +7,7 @@ int main(){
     cin >> n >> k;
     while(cin >> t){
         r += t;
-    }
+    } 
+    
     cout << (r - (3 * (n - k))) / n << " " << (r + (3 * (n - k))) / n;
 }
